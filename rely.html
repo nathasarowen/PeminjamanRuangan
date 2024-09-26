@@ -1,13 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profil davina</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">    
+    <title>Profil Davina</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            border: none;
+            text-decoration: none;
+        }        
+
+        body{
+            font-family: "poppins", Sans-serif;
+            background-color: #E0E1DD;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;            
+            padding: 1.9rem 7%;
+            background-color: #0D1B2A;
+            position: fixed;
+            opacity: 90%;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 9999;
+            height: 80px;
+        }
+
+        .header a{
+            color: white;
+            text-align: center;
+            font-family: "poppins", Sans-serif;
+            font-size: 1.2rem;
+        }
+
+        .name{
+            color: beige;
+            font-size: 1.3rem;
+            font-weight: bold;
+
+        }        
+
+        .home{
+            width: 100%;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column; 
+            display: flex;
+            padding: 30px 12% 0;
+            height: 100vh;
+            background-image: url(img/pink-50.png);
+            background-size: cover;
+        }
+
+        .home h1 span{
+            font-family: "Sacramento", cursive;
+            color: #1B263B;
+            font-size: 2.4rem;
+        }
+
+        .home h2{
+            color: #1B263B;
+        }
+
+        .home h1{
+            color: #778DA9;
+            font-size: 1.2rem;
+        }
+
+        .home p{
+            max-width: 80%;
+            font-weight: 400;
+            color: #778DA9;
+            padding: 1rem 0 ;
+        }
+
+        .home a{
+            padding: 1rem 0.9rem ;
+            background-color: rgb(78, 12, 53);
+            color: beige;
+            font-weight: 900;
+            border-radius: 11px;
+            font-size: 0.7rem;
+        }  
+    </style>
 </head>
 <body>
-    <h1>Davina Intan Aurelya</h1>
-    <h2>2023081003</h2>
-    <h3>Sistem Informasi</h3>
+    <header class="header">
+        <a>Profil Davina</a>        
+    </header>
+
+    <section class="home" id="home">
+        <h2>Hi,</h2>
+
+        <h1>My Name is  <span>Davina Intan Aurelya</span></h1>
+            
+        <p>I am a sophomore student at the University of Pembangunan Jaya majoring in information systems. 
+            I have some experience in participating in organizations and committees, 
+            as well as several projects related to my major.
+        </p>                                
+    </section>
 </body>
 </html>
