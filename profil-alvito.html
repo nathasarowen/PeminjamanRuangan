@@ -1,13 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">    
+    <title>Profil Algans</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            border: none;
+            text-decoration: none;
+        }        
+
+        body{
+            font-family: "poppins", Sans-serif;
+            background-color: #3f3f3f;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;            
+            padding: 1.9rem 7%;
+            background-color: rgb(161, 161, 161);
+            position: fixed;
+            opacity: 90%;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 9999;
+            height: 80px;
+        }
+
+        .header a{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-family: "poppins", Sans-serif;
+            font-size: 1.2rem;
+        }
+
+        .name{
+            color: rgb(0, 0, 0);
+            font-size: 1.3rem;
+            font-weight: bold;
+
+        }        
+
+        .home{
+            width: 100%;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column; 
+            display: flex;
+            padding: 30px 12% 0;
+            height: 100vh;
+            background-image: url(img/pink-50.png);
+            background-size: cover;
+        }
+
+        .home h1 span{
+            font-family: "Sacramento", cursive;
+            color: rgb(0, 0, 0);
+            font-size: 2.4rem;
+        }
+
+        .home h2{
+            color: rgb(0, 0, 0);
+        }
+
+        .home h1{
+            color: rgb(0, 0, 0);
+            font-size: 1.2rem;
+        }
+
+        .home p{
+            max-width: 80%;
+            font-weight: 400;
+            color: rgb(0, 0, 0);
+            padding: 1rem 0 ;
+        }
+
+        .home a{
+            padding: 1rem 0.9rem ;
+            background-color: rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            font-weight: 900;
+            border-radius: 11px;
+            font-size: 0.7rem;
+        }  
+    </style>
 </head>
 <body>
-    <h1>Ramadhan Alvito Alfian</h1>
-    <h2>2023081006</h2>
-    <h2>Sistem Informasi</h2>
+    <header class="header">
+        <a>Profil Algans</a>        
+    </header>
+
+    <section class="home" id="home">
+        <h2>Hi,</h2>
+
+        <h1>My Name is  <span>Ramadhan Alvito Alfian</span></h1>
+            
+        <p>saya anak sif
+        </p>                                
+    </section>
 </body>
 </html>
